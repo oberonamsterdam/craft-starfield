@@ -1,0 +1,10 @@
+<div style="display: block; width: 30px; text-align: center; float: left;">
+    <label for="{{ name }}_0">-</label><br />
+    <input type="radio" name="{{ name }}" id="{{ name }}_0" value="0" {% if not value or value == 0 %}checked="checked"{% endif %}/>
+</div>
+{% for i in 1..maxStars %}
+    <div style="display: block; width: 30px; text-align: center; float: left;">
+        <label for="{{ name }}_{{ i }}">⭐</label><br />
+        <input type="radio" name="{{ name }}" id="{{ name }}_{{ i }}" value="{{ i }}" {% if value == i %}checked="checked"{% endif %} />
+    </div>
+{% endfor %}
