@@ -52,7 +52,8 @@ class StarField extends Field implements PreviewableFieldInterface, SortableFiel
                 'options' => [
                     1 => Craft::t('starfield', '1 star'),
                     3 => Craft::t('starfield', '3 stars'),
-                    5 => Craft::t('starfield', '5 stars')
+                    5 => Craft::t('starfield', '5 stars'),
+                    10 => Craft::t('starfield', '10 stars')
                 ],
                 'errors' => $this->getErrors('maxStars'),
             ]
