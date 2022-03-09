@@ -10,7 +10,7 @@ This plugin adds a new “Starfield” field type to Craft, which offers a simpl
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0 or later.
+This plugin requires Craft CMS 4.0 or later.
 
 ## Installation
 
@@ -32,7 +32,7 @@ cd /path/to/my-project.test
 composer require oberon/starfield
 
 # tell Craft to install the plugin
-./craft install/plugin starfield
+php craft plugin/install starfield
 ```
 
 #### About the developer
