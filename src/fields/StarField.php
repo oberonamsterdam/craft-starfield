@@ -40,7 +40,7 @@ class StarField extends Field implements PreviewableFieldInterface, SortableFiel
      *
      * @return string|null
      */
-    public function getSettingsHtml()
+    public function getSettingsHtml(): ?string
     {
         return Craft::$app->getView()->renderTemplateMacro('_includes/forms', 'selectField', [
             [
@@ -68,7 +68,7 @@ class StarField extends Field implements PreviewableFieldInterface, SortableFiel
      * @param ElementInterface|null $element
      * @return string
      */
-    public function getInputHtml($value, ElementInterface $element = null): string
+    public function getInputHtml(mixed $value, ?\craft\base\ElementInterface $element = null): string
     {
         return Craft::$app->getView()->renderTemplate('starfield/input', [
             'name' => $this->handle,
@@ -80,7 +80,7 @@ class StarField extends Field implements PreviewableFieldInterface, SortableFiel
     /**
      * @inheritDoc
      */
-    public function getTableAttributeHtml($value, ElementInterface $element): string
+    public function getTableAttributeHtml(mixed $value, ElementInterface $element): string
     {
         $result = '';
         if ($value <= 0) return '-';
