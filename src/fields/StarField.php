@@ -25,7 +25,7 @@ class StarField extends Field implements PreviewableFieldInterface, SortableFiel
     /**
      * @var int
      */
-    public $maxStars = 5;
+    public int $maxStars = 5;
 
     /**
      * @inheritDoc

@@ -34,7 +34,7 @@ class Plugin extends \craft\base\Plugin
     /**
      * @var Plugin
      */
-    public static $plugin;
+    public static Plugin $plugin;
 
     /**
      * @inheritdoc
