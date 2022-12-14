@@ -1,5 +1,13 @@
 # Release Notes for Starfield
 
+## 2.1.0 - 2022-12-14
+
+### Added
+- Dutch (NL) translation
+
+### Bugfixes
+- Settings in CP (thanks to Maarten Heideman)
+
 ## 2.0.0 - 2022-06-21
 
 ### Added
