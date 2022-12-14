@@ -1,6 +1,6 @@
 # Release Notes for Starfield
 
-## 2.1.0 - 2022-12-14
+## 2.1.1 - 2022-12-14
 
 ### Added
 - Dutch (NL) translation
