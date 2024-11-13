@@ -51,14 +51,6 @@ class Plugin extends \craft\base\Plugin
             }
         );
 
-        Event::on(Entry::class, Element::EVENT_REGISTER_SORT_OPTIONS, function(RegisterElementSortOptionsEvent $event) {
-            $event->sortOptions[] = [
-                'label' => '<FieldName>',
-                'orderBy' => 'field_<FieldHandle>',
-                'attribute' => 'field:<FieldID>'
-            ];
-        });
-
         Craft::info(
             'starfield plugin loaded',
             __METHOD__
