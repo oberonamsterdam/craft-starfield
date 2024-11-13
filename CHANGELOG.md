@@ -1,6 +1,6 @@
 # Release Notes for Starfield
 
-## 2.1.2 - 2024-11-13
+## 2.1.3 - 2024-11-13
 
 ### Removed
 - Dummy sortOptions
